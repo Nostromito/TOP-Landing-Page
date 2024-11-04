@@ -28,31 +28,73 @@ html {
   box-sizing: border-box;
 }
 
+header a,
+.top-left p {
+  font-size: var(--font-size-150);
+  color: var(--secondary-text-color);
+}
 
 
 /* Header Content */
 
 header {
+  padding: 0 100px;
   background-color: var(--dark-BG-color);
   text-align: center;
   display: flex;
   align-items: center;
-  border: solid;
 }
 
 header h1 {
   font-size: var(--font-size-200);
   color: var(--main-text-color);
-  margin: 0 10px;
 }
 
 header a {
-  color: var(--secondary-text-color);
-  margin: 5px;
+  margin-left: 5px;
   text-decoration: none;
 }
 
 .push-right {
   margin-left: auto;
   padding: 15px;
+}
+
+/* Hero Content */
+
+.top {
+  background-color: var(--dark-BG-color);
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-left {
+  max-width: 450px;
+  margin-right: 20px;
+}
+
+.top-left p,
+.top-left button {
+  margin-top: 10px;
+}
+
+.top-left h2 {
+  color: var(--main-text-color);
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-900);
+}
+
+.top-left button {
+  background-color: var(--button-color);
+  color: var(--main-text-color);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+.top-left button:hover {
+  color: var(--button-color);
+  background-color: var(--main-text-color);
+  outline: solid var(--button-color);
 }
