@@ -27,3 +27,32 @@
 html {
   box-sizing: border-box;
 }
+
+
+
+/* Header Content */
+
+header {
+  background-color: var(--dark-BG-color);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border: solid;
+}
+
+header h1 {
+  font-size: var(--font-size-200);
+  color: var(--main-text-color);
+  margin: 0 10px;
+}
+
+header a {
+  color: var(--secondary-text-color);
+  margin: 5px;
+  text-decoration: none;
+}
+
+.push-right {
+  margin-left: auto;
+  padding: 15px;
+}
