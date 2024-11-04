@@ -98,3 +98,24 @@ header a {
   background-color: var(--main-text-color);
   outline: solid var(--button-color);
 }
+
+/* Gallery Content */
+
+.mid-1 {
+  margin: 50px 0 100px 0;
+  text-align: center;
+}
+
+.mid-1 h2 {
+  color: var(--information-text-color);
+  font-size: var(--font-size-300);
+  font-weight: var(--font-weight-900);
+}
+
+.gallery-images {
+  margin-top: 50px;
+  max-width: 1800px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
