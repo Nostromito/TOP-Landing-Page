@@ -143,3 +143,39 @@ header a {
   align-self: center;
   margin-left: 300px;
 }
+
+/* Sign Up Content */
+
+.bottom {
+  background-color: var(--button-color);
+  max-width: 700px;
+  min-height: 100px;
+  margin: 100px auto;
+  padding: 25px 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left h2 {
+  color: var(--main-text-color);
+  font-size: var(--font-size-200);
+  margin-bottom: 6px;
+}
+
+.bottom-left p {
+  color: var(--main-text-color);
+  font-size: var(--font-size-150);
+}
+
+.bottom button {
+  background-color: var(--main-text-color);
+  color: var(--information-text-color);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 2px;  
+  align-self: center;
+}
+
+.bottom button:hover {
+  color: var(--button-color);
+}
