@@ -1,0 +1,29 @@
+:root {
+  --font-size-150: 1.125rem;
+  --font-size-200: 1.5rem;
+  --font-size-300: 2.25rem;
+  --font-size-400: 3rem;
+
+  --font-weight-900: 900;
+
+  --dark-BG-color: #1f2937;
+  --quote-BG-color: #e5e7eb;
+
+  --main-text-color: #f9faf8;
+  --secondary-text-color: #e5e7eb;
+  --button-color: #3882f6;
+  --information-text-color: #1f2937;
+  
+
+}
+
+*, *::before, *::after {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
