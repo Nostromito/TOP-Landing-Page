@@ -51,7 +51,7 @@ header h1 {
 }
 
 header a {
-  margin-left: 5px;
+  margin-left: 12px;
   text-decoration: none;
 }
 
@@ -120,6 +120,10 @@ header a {
   flex-wrap: wrap;
 }
 
+.gallery-flex img {
+  border-radius: 4px;
+}
+
 /* Testimonial Content */
 
 .mid-2 {
@@ -148,6 +152,7 @@ header a {
 
 .bottom {
   background-color: var(--button-color);
+  border-radius: 2px;
   max-width: 700px;
   min-height: 100px;
   margin: 100px auto;
@@ -178,4 +183,39 @@ header a {
 
 .bottom button:hover {
   color: var(--button-color);
+}
+
+/* Footer Content */
+
+footer {
+  background-color: var(--dark-BG-color);
+  color: var(--main-text-color);
+  height: 25px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 12.5px;
+}
+
+@media (max-width: 1000px) {
+  .top {
+    padding: 50px 50px;
+  }
+
+  .top img {
+    width: 350px;
+    height: 200px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .top {
+    padding: 50px 10px;
+  }
+
+  .top h2 {
+    font-size: var(--font-size-300);
+  }
 }
